@@ -12,6 +12,7 @@ A Storage Account serves as the foundation for hosting static websites.
 1.Open the Azure Portal and navigate to Storage Accounts.
 
 2.Click Create to start the creation process.
+![Screenshot 2025-01-16 213720](https://github.com/user-attachments/assets/ce1a0053-0e91-437b-8e07-52146ab9c45a)
 
 
 3.Fill in the required details: 
@@ -24,9 +25,15 @@ A Storage Account serves as the foundation for hosting static websites.
 Region: Select the nearest region to your target audience for reduced latency.
 Performance: Opt for Standard performance, which is sufficient for hosting static websites.
 Redundancy: Choose the appropriate redundancy option (e.g., LRS for local redundancy or GRS for geo-redundancy, ensuring data availability in case of regional failures).
+![Screenshot 2025-01-16 213737](https://github.com/user-attachments/assets/bed4f47d-7e34-4b49-b546-dfd551731bd8)
+
 4.Review your selections, then click Create and wait for the deployment to complete.
 
 Once the Storage Account is created, it can be used to store and serve your static website.
+
+![Screenshot 2025-01-16 213825](https://github.com/user-attachments/assets/a6e50aef-b015-4455-9b42-6944217f1eef)
+![Screenshot 2025-01-16 213844](https://github.com/user-attachments/assets/cbe70421-60f9-4d80-a1df-c68bad7b1a70)
+
 
 2. Create a Web Page
 To host a static website, you need at least one HTML file (commonly named index.html).
@@ -39,10 +46,14 @@ Azure Storage Accounts offer a dedicated Static Website feature to serve web con
 
 2.Scroll down to the Data Management section in the left-hand panel and select Static Website.
 
+![Screenshot 2025-01-16 213929](https://github.com/user-attachments/assets/821db995-d143-4f96-8e3a-5813e4101ce6)
+
 3.Click Enable to turn on the static website hosting.
 
 4.In the Index document name field, type index.html (or the main file name of your website). 
 This file will be displayed when users visit the root of your website.
+
+![Screenshot 2025-01-16 214150](https://github.com/user-attachments/assets/e95f1e20-738b-4d07-a7d4-ac67ffee69e6)
 
 5.Save the settings.
 Enabling this feature creates a special container called $web, which is reserved for storing website files.
